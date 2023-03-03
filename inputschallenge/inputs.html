@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inputs</title>
+  </head>
+  <body>
+    <form
+      action="mailto:tracichlebmat@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="yourNickname">Your Nickname</label>
+      <input type="text" name="yourNickname" id="" />
+
+      <label for="avatar">Choose a profile picture</label>
+      <input
+        type="file"
+        name="avatar"
+        id="avatar"
+        accept="image/png, image/jpeg, image/jpg"
+      />
+      <br />
+      <input type="date" name="" id="" /><br />
+      <label for="">Newsletter</label>
+      <input type="radio" name="" id="" /><br />
+      <input type="range" name="" id="" />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <fieldset>
+      <legend>Choose your favorite icecream flavor</legend>
+      <div>
+        <input type="checkbox" name="Vanilla" id="Vanilla" />
+        <label for="Vanilla">Vanilla</label>
+      </div>
+      <div>
+        <input type="checkbox" name="Chocolate" id="Chocolate" />
+        <label for="Chocolate">Chocolate</label>
+      </div>
+      <hr />
+      <div>
+        <label for="textarea">Your Comment</label><br />
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+      </div>
+    </fieldset>
+  </body>
+</html>
