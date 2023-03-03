@@ -1,0 +1,80 @@
+body {
+    width: 800px;
+}
+div {
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 25px;
+}
+table {
+    width: 95%;
+    background-color: white;
+    border-collapse: collapse;
+    border-color: black;
+}
+td, th {
+    padding: 8px;
+}
+.td_me {
+    width: 200px;
+    text-align: center;
+}
+.th_1 {
+    background-color: lightgray;
+    border-color: black;
+    border: 1px solid;
+}
+.td_1 {
+    width: auto;
+    background-color: white;
+    text-align: center;
+    border: 1px solid;
+}
+.td_2 {
+    width: auto;
+    background-color: white;
+    padding-left: 10%;
+    border: 1px solid;
+}
+.td_s1 {
+    height: 35px;
+}
+.td_hr {
+    height: 50px;
+}
+
+img.me {
+    width: 150px;
+    border-radius: 50%;
+}
+img.star {
+    width: 80px;
+    height: auto;
+}
+img.star:hover {
+    width: 85px;
+    height: auto;
+    
+}
+a:link, a:visited {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-style: normal;
+    font-size: small;
+    text-decoration: none;
+    
+}
+a:hover, a:active {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-style: normal;
+    font-size: small;
+    text-decoration: underline;
+    
+}
+.th_we {
+    text-align: left;
+}
+.th_s {
+    text-align: left;
+}
